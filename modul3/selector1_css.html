@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>selector 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .gdbawah{
+                color: blue;
+                font-size: 24px;
+            }
+            .font-xs{
+                color: rebeccapurple;
+                font-size: 24px;
+            }
+            .judul{
+                font-weight: bold;
+                font-size: 32px;
+                color:blueviolet;
+            }
+            p.success{
+                color: green;
+            }
+            P#danger{
+                color: red;
+            }
+            #id1{
+                color: brown;
+                text-decoration: underline;
+            }
+
+            a[href]{
+                color: cadetblue;
+                font-size: 50px;
+            }
+            h1,h2,h3{
+                text-transform: uppercase;
+            }
+            span#penting{
+                color: aquamarine;
+                font-weight: bold;
+            }
+            div p{
+                font-size: x-large;
+            }
+            div >p{
+               color: red; 
+            }
+            div section p{
+                font-size: small;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <h1 class="font-xs">hello world</h1>
+        <p>this is paragraf one</p>
+        <hr>
+        <h2 class= "judul"> ini adalah judul</h2>
+        <p>ini paragraf ke dua</p>
+        <hr>
+        <h2 class= "judul2"> ini adalah judul kedua</h2>
+        <p class="judul2">ini paragraf ke dua</p>
+        <hr>
+        <h3>this is heading three</h3>
+        <p class="danger"> login gagal</p>
+        <hr>
+        <h3>thisb is heading two</h3>
+        <p class="success">login anda berhasil</p>
+        <hr>
+        <a>link not active</a>
+        <a href="https://lms.telkomuniversity.ac.id/course/index.php?mycourses=1" target="_blank">link active</a>
+        <p class="judul">Lorem ipsum dolor <span id="penting">pemrograman web informatika </span> sit amet consectetur adipisicing elit. Alias officiis architecto fugiat dolor, vel consectetur quos, rerum veritatis optio odit unde! Atque et laudantium veniam, incidunt aliquam provident! Inventore, rem?</p>
+        <hr>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloremque hic atque similique accusamus excepturi libero aperiam minus culpa eligendi veniam, porro tempore dolorem recusandae necessitatibus ratione dolore tempora voluptatibus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, officia? Consequatur porro dolore sint sequi odit eveniet rem expedita? Iste maiores totam, dolorem possimus accusamus error in atque numquam dolor.</p>
+                <section>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam magnam, facere totam corporis veniam autem maxime laboriosam magni cum temporibus accusantium atque. Vel accusantium enim, magni culpa maiores eius perferendis?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis tempora nemo a dolorem, facilis unde deleniti nobis earum deserunt soluta dolor necessitatibus cupiditate. Ab provident iure mollitia corrupti molestiae vitae!</p>
+                </section>
+
+
+        </div>
+
+    </body>
+</html>

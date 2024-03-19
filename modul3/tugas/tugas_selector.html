@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Implementation</title>
+    <style>
+        /* Universal Selector */
+        * {
+            margin: 50;
+            padding: 25;
+        }
+
+        /* Pseudo-class Selector */
+        a:hover {
+            color: red;
+        }
+
+        /* Pseudo-element Selector */
+        p::before {
+            content: "Before ";
+            font-weight: bold;
+        }
+
+        /* Child Selector */
+        ul > li {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <a href="#">Hover over me</a>
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+    </ul>
+    <p>This is another paragraph.</p>
+</body>
+</html>
